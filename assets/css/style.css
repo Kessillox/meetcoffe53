@@ -2,5 +2,12 @@ body{
 	background-color: antiquewhite;
 	border: 5px;
 	border-style: solid;
-	border-color: aqua;
+	border-color: chocolate;
+	color: blue;
+}
+.blueviolet{
+	color: blueviolet;
+}
+#verde{
+	color: green;
 }
