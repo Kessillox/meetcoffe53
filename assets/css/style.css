@@ -5,9 +5,40 @@ body{
 	border-color: chocolate;
 	color: blue;
 }
-.blueviolet{
-	color: blueviolet;
-}
-#verde{
-	color: green;
+ header{
+	/* propiedades del background */
+	background-image: url(../img/bg-hero.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	/* Propiedades del texto*/
+	font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+	text-shadow: 0px 3px 6px black;
+	text-align: right;
+	color: white;
+
+	/*Borde*/
+	border: 5px;
+	border-style: solid;
+	border-color: red;
+
+	/*Propiedades de caja*/
+	padding: 60px;
+	margin: 30px;
+ }
+ header h1{
+	font-size: 60px;
+ }
+
+ header h3{
+	font-size: 40px;
+	font-weight: lighter;
+ }
+
+.rubik-light {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
