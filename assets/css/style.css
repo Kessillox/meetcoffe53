@@ -4,8 +4,10 @@ body{
 	border-style: solid;
 	border-color: chocolate;
 	color: blue;
+	font-size: 16px;
 }
- header{
+
+header{
 	/* propiedades del background */
 	background-image: url(../img/bg-hero.png);
 	background-position: center;
@@ -24,21 +26,80 @@ body{
 	border-color: red;
 
 	/*Propiedades de caja*/
-	padding: 60px;
-	margin: 30px;
- }
- header h1{
-	font-size: 60px;
- }
+	padding: 40px;
+	margin: 10px;
+}
 
- header h3{
+header h1{
+	font-size: 60px;
+}
+
+header h3{
 	font-size: 40px;
 	font-weight: lighter;
- }
+}
 
 .rubik-light {
-  font-family: "Rubik", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
+	font-family: "Rubik", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
 }
+
+#eventos-anteriores{
+	text-align: center;
+}
+
+footer{
+	text-align: center;
+	background-color: #020202e4;
+}
+
+i{
+	color: green;
+	font-size: 30px;
+}
+
+
+/*
+.caja{
+	border: 5px;
+	border-style: solid;
+	border-color: aqua;
+
+}
+
+.div1 {
+	border: 5px;
+	border-style: solid;
+	border-color: blue;
+	display: inline-block;
+	width: 50%;
+	height: 80%;
+}
+
+.div2{
+	border: 5px;
+	border-style: solid;
+	border-color: green;
+	display: inline-block;
+	margin: 5px;
+	width: 50%;
+}
+
+.div3{
+	border: 5px;
+	border-style: solid;
+	border-color: yellow;
+	display: block;
+	margin: 1rem;
+}
+
+.div4{
+	border: 5px; 
+	border-style: solid;
+	border-color: blueviolet;
+	display: block;
+	margin: 10vw;
+	font-size: 24px;
+}*/
